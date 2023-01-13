@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--text-1);
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--bg-principal);
+}
+
+:root{
+  --bg-principal:rgb(21, 21, 21);
+  --bg-foto:rgba(34, 34, 34, 1);
+  --linha-sessoes:rgba(76, 76, 76, 0.158);
+  --place-holder:rgba(255, 255, 255, 0.842);
+  --borda-baixo:rgb(255, 251, 0);
+  /* --text-1:rgb(175, 175, 175); */
+  --text-1:rgba(255, 255, 255, 0.699); 
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 50px 10px;
+  position: relative;
+}
+
+.container .foto-perfil {
+  position: absolute;
+  top: 0;
+  padding: 50px;
+  right: 0px;
+  width: 280px;
+  height: 460px;
+  background-color:var(--bg-foto);
+}
+
+.container .menu-nav a {
+  font-size: 1.5em;
+  margin: 0 15px;
+}
+
+/* header */
+header .logo {
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+/* main */
+main {
+  height: 500px;
+}
+
+main .container {
+  height:450px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border-bottom:2px solid var(--linha-sessoes)
+}
+
+main h1 {
+  font-size: 3em;
+  letter-spacing: 1.5px;
+  width: 600px;
+}
+
+main span {
+  font-style: italic;
+  border-bottom: 1px solid var(--borda-baixo);
+}
+
+main p {
+  width: 500px;
+}
+
+main .btn {
+  align-self: flex-start;
+  height: 50px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+main .btn button a{
+  text-transform: uppercase;
+  padding: 8px 16px;
+  background-color: black;
+}
+
+/* hard-skills */
+
+.hard-skills .container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.container .skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+}
+
+.skill h2{
+  margin: 15px 0;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.skill .img-skill{
+  a
+  width: 100%;
+}
+
+.skill .img-skill img {
+  width:100px;
+}
+
+/* projetos */
+
+.projetos .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projetos .container h1, .contato h1{
+  font-size: 4em;
+}
+
+.projetos .container a {
+  font-size: 1.5em;
+  align-items: center;
+}
+
+.projetos .projetos-info {
+  padding: 20px 48px;
+  width: 460px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projetos-info .img {
+  width: 360px;
+  height: 280px;
+}
+
+.projetos-info .title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1.3em;
+}
+
+.projetos-info .title i {
+  color: var(--borda-baixo);
+  font-size: 20px;
+}
+
+.projetos-info .metodos {
+  width: 100%;
+}
+
+.projetos-info .metodos p {
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+
+
+.projetos-info .title, .projetos-info .metodos, .projetos-info .links{
+  align-self: flex-start;
+  padding: 5px 0;
+  margin: 5px 0;
+}
+
+/* contato */
+
+.contato, footer {
+  background-color:var(--bg-foto);
+}
+
+.contato .container {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom:2px solid var(--linha-sessoes)
+
+}
+
+.contato .info-contato {
+  width: 400px;
+}
+.contato .info-contato h1 {
+  margin-bottom: 30px;
+}
+
+.contato .info-contato p{
+ line-height: 30px;
+}
+
+.contato form{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 10px;
+}
+
+.contato form input,
+.contato form textarea{
+  border: none;
+  font-size: 1.2em;
+  margin: 10px;
+  padding: 10px 10px;
+  border-bottom: 2px solid var(--linha-sessoes);
+  background-color: var(--bg-foto);
+  outline: 0;
+  letter-spacing: 03px;
+  resize: none;
+}
+::placeholder{
+  color: var(--place-holder);
+}
+
+.contato a, .btn a, .btn-contato{
+  align-self: flex-end;
+  padding: 5px 5px;
+  font-size: 1.2em;
+  border-bottom: 1px solid var(--borda-baixo);
+  font-style: italic;
+}
+
+/* FOOTER */
+footer .container{
+  display: flex;
+  height: 150px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .footer-logo p{
+  font-style: italic;
+  font-weight: bold;
+}
+
+footer .footer-nav {
+  display: flex;
+  gap: 1em;
+  font-size: 1.5em;
+}
