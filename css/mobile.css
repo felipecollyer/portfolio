@@ -1,0 +1,146 @@
+@media (max-width: 390px) {
+  .container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 10px 0px;
+    position: relative;
+  }
+
+  .container .foto-perfil {
+    position: relative;
+    margin: 0 auto;
+    padding: 70px 0;
+    width: 24 0px;
+    height: 550px;
+    background-color: var(--bg-foto);
+  }
+
+  .container .menu-nav {
+    margin-right: 300px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .container .menu-nav a {
+    font-size: 2em;
+  }
+
+  header .logo {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  /* MAIN */
+
+  main {
+    height: 375px;
+    padding: 0px 20px;
+  }
+
+  main .container {
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-bottom: 2px solid var(--linha-sessoes);
+  }
+
+  main h1 {
+    text-align: center;
+    font-size: 1.7em;
+    width: 340px;
+  }
+
+  main p {
+    width: 340px;
+    text-align: center;
+  }
+
+  main .main {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+
+  /* hard-skills */
+
+  .hard-skills .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    width: 150px;
+    height: 200px;
+  }
+
+  /* projetos */
+
+  .projetos .container h1,
+  .contato h1 {
+    font-size: 3em;
+    color: #fff;
+  }
+
+  .projetos .projetos-info {
+    padding: 20px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* contato */
+  .contato .container {
+    height: 500px;
+    padding: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--linha-sessoes);
+  }
+
+  .contato .info-contato {
+    width: 300px;
+    flex: 1;
+  }
+
+  .contato form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    gap: 10px;
+  }
+
+  .contato form input,
+  .contato form textarea {
+    border: none;
+    font-size: 1.2em;
+    margin: 05px 0px;
+    padding: 0px 10px;
+    border-bottom: 2px solid var(--linha-sessoes);
+    background-color: var(--bg-foto);
+    outline: 0;
+    letter-spacing: 03px;
+    resize: none;
+  }
+
+  .contato .container a {
+    margin-bottom: 20px;
+    align-self: flex-end;
+  }
+}
