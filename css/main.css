@@ -36,7 +36,7 @@ body {
   position: relative;
 }
 
-.container .foto-perfil {
+.container .photoPerfil {
   position: absolute;
   top: 0;
   padding: 50px;
@@ -46,7 +46,7 @@ body {
   background-color:var(--bg-foto);
 }
 
-.container .menu-nav a {
+.container .menuSociais a {
   font-size: 1.5em;
   margin: 0 15px;
 }
@@ -105,7 +105,7 @@ main .btn button a{
 
 /* hard-skills */
 
-.hard-skills .container {
+.hardSkills .container {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
@@ -127,18 +127,18 @@ main .btn button a{
   color: #fff;
 }
 
-.skill .img-skill{
+.skill .logoSkill{
   a
   width: 100%;
 }
 
-.skill .img-skill img {
+.skill .logoSkill img {
   width:100px;
 }
 
 /* projetos */
 
-.projetos .container {
+.project .container {
   display: flex;
   flex-wrap: wrap;
   gap: 18px;
@@ -146,16 +146,16 @@ main .btn button a{
   align-items: center;
 }
 
-.projetos .container h1, .contato h1{
+.project .container h1, .contact h1{
   font-size: 4em;
 }
 
-.projetos .container a {
+.project .container a {
   font-size: 1.5em;
   align-items: center;
 }
 
-.projetos .projetos-info {
+.project .projectInfo {
   padding: 20px 48px;
   width: 460px;
   height: 400px;
@@ -164,34 +164,34 @@ main .btn button a{
   align-items: center;
 }
 
-.projetos-info .img {
+.projectInfo .imageProject {
   width: 360px;
   height: 280px;
 }
 
-.projetos-info .title {
+.projectInfo .title {
   display: flex;
   justify-content: space-between;
   width: 100%;
   font-size: 1.3em;
 }
 
-.projetos-info .title i {
+.projectInfo .title i {
   color: var(--borda-baixo);
   font-size: 20px;
 }
 
-.projetos-info .metodos {
+.projectInfo .usedSkills {
   width: 100%;
 }
 
-.projetos-info .metodos p {
+.projectInfo .usedSkills p {
   font-size: 1.1em;
   text-transform: uppercase;
 }
 
 
-.projetos-info .title, .projetos-info .metodos, .projetos-info .links{
+.projectInfo .title, .projectInfo .usedSkills, .projectInfo .links{
   align-self: flex-start;
   padding: 5px 0;
   margin: 5px 0;
@@ -199,11 +199,11 @@ main .btn button a{
 
 /* contato */
 
-.contato, footer {
+.contact, footer {
   background-color:var(--bg-foto);
 }
 
-.contato .container {
+.contact .container {
   height: 500px;
   display: flex;
   justify-content: space-between;
@@ -211,26 +211,26 @@ main .btn button a{
 
 }
 
-.contato .info-contato {
+.contact .infoContact {
   width: 400px;
 }
-.contato .info-contato h1 {
+.contact .infoContact h1 {
   margin-bottom: 30px;
 }
 
-.contato .info-contato p{
+.contact .infoContact p{
  line-height: 30px;
 }
 
-.contato form{
+.contact form{
   display: flex;
   flex-direction: column;
   width: 400px;
   gap: 10px;
 }
 
-.contato form input,
-.contato form textarea{
+.contact form input,
+.contact form textarea{
   border: none;
   font-size: 1.2em;
   margin: 10px;
@@ -245,7 +245,7 @@ main .btn button a{
   color: var(--place-holder);
 }
 
-.contato a, .btn a, .btn-contato{
+.contact a, .btn a, .btnContact{
   align-self: flex-end;
   padding: 5px 5px;
   font-size: 1.2em;
@@ -261,12 +261,12 @@ footer .container{
   align-items: center;
 }
 
-footer .footer-logo p{
+footer .coopyRigth p{
   font-style: italic;
   font-weight: bold;
 }
 
-footer .footer-nav {
+footer .menuFooter {
   display: flex;
   gap: 1em;
   font-size: 1.5em;

@@ -6,7 +6,7 @@
     position: relative;
   }
 
-  .container .foto-perfil {
+  .container .photoPerfil {
     position: relative;
     margin: 0 auto;
     padding: 70px 0;
@@ -15,14 +15,14 @@
     background-color: var(--bg-foto);
   }
 
-  .container .menu-nav {
+  .container .menuSociais {
     margin-right: 300px;
     display: flex;
     justify-content: space-around;
     width: 100%;
   }
 
-  .container .menu-nav a {
+  .container .menuSociais a {
     font-size: 2em;
   }
 
@@ -71,7 +71,7 @@
 
   /* hard-skills */
 
-  .hard-skills .container {
+  .hardSkills .container {
     display: flex;
     flex-wrap: wrap;
   }
@@ -88,13 +88,13 @@
 
   /* projetos */
 
-  .projetos .container h1,
-  .contato h1 {
+  .project .container h1,
+  .contact h1 {
     font-size: 3em;
     color: #fff;
   }
 
-  .projetos .projetos-info {
+  .project .projectInfo {
     padding: 20px;
     width: 100%;
     height: 400px;
@@ -104,7 +104,7 @@
   }
 
   /* contato */
-  .contato .container {
+  .contact .container {
     height: 500px;
     padding: 0px 20px;
     display: flex;
@@ -113,12 +113,12 @@
     border-bottom: 2px solid var(--linha-sessoes);
   }
 
-  .contato .info-contato {
+  .contact .infoContact {
     width: 300px;
     flex: 1;
   }
 
-  .contato form {
+  .contact form {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -126,8 +126,8 @@
     gap: 10px;
   }
 
-  .contato form input,
-  .contato form textarea {
+  .contact form input,
+  .contact form textarea {
     border: none;
     font-size: 1.2em;
     margin: 05px 0px;
@@ -139,7 +139,7 @@
     resize: none;
   }
 
-  .contato .container a {
+  .contact .container a {
     margin-bottom: 20px;
     align-self: flex-end;
   }
