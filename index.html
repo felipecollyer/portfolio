@@ -16,19 +16,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
   <div class="container">
-    <div class="photoPerfil">
-      <img src="" alt="" srcset="">
-      <nav class="menuSociais">
-        <a href="#github"><i class="bi bi-github"></i> </a>
-        <a href="#linkedin"><i class="bi bi-linkedin"></i></a>
-        <a href="#wpp"><i class="bi bi-whatsapp"></i></a>
-      </nav>
-    </div>
     <header>
       <div class="logo">
         <p>FelipeCollyer</p>
@@ -37,70 +28,76 @@
   </div>
   <main>
     <div class="container">
-      <h1>Seja bem-vindo(a)!<br> Me chamo <span>Felipe Collyer.</span></h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis enim corporis debitis ut illo qui dolorum libero accusantium tenetur quibusdam esse eligendi eius, amet quos. Ducimus provident sed harum adipisci.</p>
-      <div class="btn main">
-        <a href="#">Contato</a>
-        <a href="#">Download CV</a>
+      <div class="wellComeProfile">
+        <h1>Seja bem-vindo(a)!<br> Me chamo <span>Felipe Collyer.</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis enim corporis debitis ut illo qui dolorum libero accusantium tenetur quibusdam esse eligendi eius, amet quos. Ducimus provident sed harum adipisci.</p>
+        <div class="btn main">
+          <a href="#">Contato</a>
+          <a href="#">Download CV</a>
+        </div>
+      </div>
+      <div class="photoPerfil">
+        <img src="" alt="" srcset="">
+        <nav class="menuSociais">
+          <li><a href="#github"><i class="bi bi-github"></i></a></li>
+          <li><a href="#linkedin"><i class="bi bi-linkedin"></i></a></li>
+          <li><a href="#wpp"><i class="bi bi-whatsapp"></i></a></li>
+        </nav>
       </div>
     </div>
   </main>
 
   <section class="hardSkills">
-    <div class="container">
-      <h1>hard-skills</h1>
+    <div class="span">
+      <span>{</span>
     </div>
-
     <div class="container">
       <div class="skill">
         <h2>Html</h2>
         <div class="logoSkill">
-          <img src="img-skills/732212.png" alt="">
+          <img src="img-skills/Html.png" alt="">
         </div>
       </div>
       <div class="skill">
         <h2>Css</h2>
         <div class="logoSkill">
-          <img src="img-skills/logo-css-3-2048.png" alt="">
+          <img src="img-skills/Css.png" alt="">
         </div>
       </div>
       <div class="skill">
         <h2>JavaScript</h2>
         <div class="logoSkill">
-          <img src="img-skills/javascript.png" alt="">
+          <img src="img-skills/JavaScript.png" alt="">
         </div>
       </div>
       <div class="skill">
         <h2>JQuery</h2>
         <div class="logoSkill">
-          <img src="img-skills/jquery.png" alt="">
+          <img src="img-skills/JQuery.png" alt="">
         </div>
       </div>
       <div class="skill">
-        <h2>NodeJS</h2>
+        <h2>Sass</h2>
         <div class="logoSkill">
-          <img src="img-skills/nodejs.png" alt="">
+          <img src="img-skills/Sass.png" alt="">
         </div>
       </div>
       <div class="skill">
         <h2>Git</h2>
         <div class="logoSkill">
-          <img src="img-skills/git.png" alt="">
+          <img src="img-skills/Git.png" alt="">
         </div>
       </div>
-      <div class="skill">
-        <h2>MySQL</h2>
-        <div class="logoSkill">
-          <img src="img-skills/mysql.png" alt="">
-        </div>
-      </div>
+    </div>
+    <div class="span">
+      <span>}</span>
     </div>
   </section>
 
   <section class="project">
-    <div class="container">
+    <div class="sectionTitle">
       <h1>Projetos</h1>
-      <a href="#" class="btnContact">Contato</a>
+      <a href="#" class="btn">Contato</a>
     </div>
     <div class="container">
       <div class="projectInfo">
@@ -108,10 +105,18 @@
           <img src="img-projetos/agenda.png" alt="">
         </div>
         <div class="title">
-          <p>Agenda de contatos</p> <i class="bi bi-plus-circle"></i>
+          <h2>Agenda de contatos</h2>
         </div>
-        <div class="usedSkills">
-          <p>html - css - Js</p>
+        <div class="usedSkillsLogo">
+          <h3 class="html">html  |  css |  Js</h3>
+        </div>
+        <div class="linksProject">
+          <li>
+            <a href="">Projeto</a>
+          </li>
+          <li>
+            <a href="http://">Codigo</a>
+          </li>
         </div>
       </div>
       <div class="projectInfo">
@@ -119,10 +124,18 @@
           <img src="img-projetos/projeto2.jpg" alt="">
         </div>
         <div class="title">
-          <p>Componete de preco unico</p> <i class="bi bi-plus-circle"></i>
+          <h2>Componete de preco unico<h2>
         </div>
-        <div class="usedSkills">
-          <p>html - css - Js</p>
+        <div class="usedSkillsLogo">
+          <h3>html  |  css</h3>
+        </div>
+        <div class="linksProject">
+          <li>
+            <a href="">Pagina</a>
+          </li>
+          <li>
+            <a href="http://">Codigo</a>
+          </li>
         </div>
       </div>
       <div class="projectInfo">
@@ -130,10 +143,18 @@
           <img src="img-projetos/projeto3.jpg" alt="">
         </div>
         <div class="title">
-          <p>Resumo de pedido</p> <i class="bi bi-plus-circle"></i>
+          <h2>Resumo de pedido</h2>
         </div>
-        <div class="usedSkills">
-          <p>Html - css</p>
+        <div class="usedSkillsLogo">
+          <h3>html  |  css</h3>
+        </div>
+        <div class="linksProject">
+          <li>
+            <a href="">Pagina</a>
+          </li>
+          <li>
+            <a href="http://">Codigo</a>
+          </li>
         </div>
       </div>
       <div class="projectInfo">
@@ -141,10 +162,18 @@
           <img src="img-projetos/projeto4.jpg" alt="">
         </div>
         <div class="title">
-          <p>Visualização de estatísticas</p> <i class="bi bi-plus-circle"></i>
+          <h2>Visualização de estatísticas</h2>
         </div>
-        <div class="usedSkills">
-          <p>Html - css </p>
+        <div class="usedSkillsLogo">
+          <h3>html  |  css</h3>
+        </div>
+        <div class="linksProject">
+          <li>
+            <a href="">Pagina</a>
+          </li>
+          <li>
+            <a href="http://">Codigo</a>
+          </li>
         </div>
       </div>
     </div>
@@ -154,16 +183,19 @@
     <div class="container">
       <div class="infoContact">
         <h1>Contato</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus nostrum, nemo officia impedit magnam nobis. Velit hic, reprehenderit minima inventore.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus nostrum, nemo officia impedit magnam nobis. Velit hic, reprehenderit minima inventore.
+        </p>
       </div>
       <form action="">
         <input type="text" name="" id="" placeholder="Name">
         <input type="text" name="" id="" placeholder="Email">
         <textarea name="" id="" cols="20" rows="10" placeholder="Mensagem"></textarea>
+        <a href="#" class="btn">Enviar</a>
       </form>
-      <a href="#" class="btnSend">Enviar</a>
     </div>
   </section>
+
+
   <footer>
     <div class="container">
       <div class="coopyRigth">
