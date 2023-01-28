@@ -1,0 +1,34 @@
+@media (max-width: 940px) {
+
+  .container {
+    margin-bottom: 0px;
+  }
+  .project .projectInfo {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 350px;
+    grid-template-rows: repeat(2, 1fr) auto;
+    grid-template-areas:
+      "imageProject"
+      "imageProject"
+      "title"
+      "usedSkillsLogo"
+      "links";
+    margin-bottom: 0px;
+  }
+
+  .title h2 {
+    letter-spacing: 3px;
+    font-size: 1em;
+  }
+
+  .usedSkillsLogo h3 {
+    text-transform: uppercase;
+    margin: 5px 0;
+    font-size: .9em;
+  }
+
+  .linksProject a {
+    font-size: .8em;
+  }
+}

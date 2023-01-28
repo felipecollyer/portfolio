@@ -1,0 +1,87 @@
+@media (max-width: 760px) {
+  main .container {
+    display: grid;
+    grid-template-areas:
+      "photoPerfil photoPerfil "
+      "wellComeProfile wellComeProfile "
+      "wellComeProfile wellComeProfile ";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto;
+    padding: 0px 10px;
+  }
+
+  .header {
+    margin: 0 auto;
+    padding: 0px 10px;
+    position: static;
+    margin-bottom: 0px;
+  }
+
+  .logo p {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .container .photoPerfil {
+    grid-area: photoPerfil;
+    position: static;
+    background-color: var(--bg-foto);
+  }
+
+  .wellComeProfile {
+    grid-area: wellComeProfile;
+    width: auto;
+  }
+
+  .wellComeProfile h1,
+  .wellComeProfile p,
+  .wellComeProfile .btn {
+    width: auto;
+    text-align: center;
+  }
+  .wellComeProfile h1 {
+    font-size: 2em;
+  }
+
+  .wellComeProfile .btn {
+    margin: 0 auto;
+    gap: 20px;
+  }
+
+  /* HARDSKILLS */
+
+  .skill h2 {
+    width: auto;
+  }
+
+  /* PROJECT */
+
+  .project .projectInfo {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 270px;
+    grid-template-rows: repeat(2, 1fr) auto;
+    grid-template-areas:
+      "imageProject"
+      "imageProject"
+      "title"
+      "usedSkillsLogo"
+      "links";
+    margin-bottom: 0px;
+  }
+
+  .title h2 {
+    letter-spacing: 3px;
+    font-size: .9em;
+  }
+
+  .usedSkillsLogo h3 {
+    text-transform: uppercase;
+    margin: 5px 0;
+    font-size: .8em;
+  }
+
+  .linksProject a {
+    font-size: .8em;
+  }
+} ;

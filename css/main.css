@@ -34,7 +34,7 @@ body {
 .container,
 .span,
 .sectionTitle {
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 30px 10px;
   position: relative;
@@ -49,7 +49,7 @@ header .logo {
 }
 .logo p {
   padding: 1px 0;
-  color:var(--borda-baixo);
+  color: var(--borda-baixo);
 }
 
 /* MAIN */
@@ -164,6 +164,7 @@ form a {
 .logoSkill {
   margin: 10px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -183,6 +184,7 @@ form a {
 .sectionTitle h1 {
   font-size: 3em;
   font-style: italic;
+  padding: 0 10px;
 }
 
 .project .container {
@@ -216,7 +218,6 @@ form a {
 
 .title h2 {
   text-transform: uppercase;
-
   letter-spacing: 5px;
   font-size: 1.1em;
 }
@@ -238,9 +239,10 @@ form a {
   gap: 20px;
 }
 
-.project .container h1,
+
 .contact h1 {
   font-size: 4em;
+  padding: 0 10px;
 }
 
 .project .container a {
@@ -281,6 +283,7 @@ footer {
 
 .contact .infoContact p {
   line-height: 30px;
+  padding: 0 10px;
 }
 
 .contact form input,

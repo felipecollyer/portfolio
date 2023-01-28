@@ -1,0 +1,17 @@
+@media (max-width: 600px) {
+  /* HARDSKILLS */
+  .hardSkills .container {
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  .contact .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-bottom: 2px solid var(--linha-sessoes);
+    gap: 10px 35px;
+    margin: 0 auto;
+  }
+}
