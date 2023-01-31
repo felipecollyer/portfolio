@@ -87,6 +87,11 @@ main .container {
   width: 500px;
   line-height: 1.5;
   padding: 10px;
+  word-spacing: 2px;
+}
+
+.wellComeProfile .frontEnd {
+  color: var(--borda-baixo);
 }
 
 .wellComeProfile .btn {
@@ -238,7 +243,6 @@ form a {
   flex-wrap: wrap;
   gap: 20px;
 }
-
 
 .contact h1 {
   font-size: 4em;
