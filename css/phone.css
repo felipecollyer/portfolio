@@ -15,5 +15,11 @@
     margin: 0 auto;
   }
 
-} ;
+} 
+
+@media(max-width:352px){
+  .wellComeProfile h1 {
+    margin-top: 60px;
+  }
+}
 
