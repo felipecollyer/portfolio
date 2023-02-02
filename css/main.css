@@ -24,7 +24,7 @@ body {
 
 :root {
   --bg-principal: rgb(21, 21, 21);
-  --bg-foto: rgba(34, 34, 34, 1);
+  --bg-foto: rgba(29, 29, 29, 1);
   --linha-sessoes: rgba(76, 76, 76, 0.158);
   --place-holder: rgba(255, 255, 255, 0.842);
   /* --borda-baixo: rgb(255, 251, 0); */
@@ -118,8 +118,8 @@ form a {
   margin: 0 auto;
   top: -100px;
   right: 0px;
-  width: 280px;
-  height: 460px;
+  width: 240px;
+  height: auto;
   background-color: var(--bg-foto);
 }
 

@@ -1,26 +1,5 @@
 @media (max-width: 600px) {
-  .container .photoPerfil {
-    position: relative;
-    top: -50px;
-    z-index: 0;
-    background: linear-gradient(
-      170deg,
-      rgba(21, 21, 21, 1) 0%,
-      rgba(34, 34, 34,1) 100%
-    );
-    
-  }
-  .logo p {
-    z-index: 1;
-    position: relative;
-  }
 
-  .menuSociais {
-    margin-top: 60px;
-    padding: 2px 0;
-  }
-
-  /* HARDSKILLS */
   .hardSkills .container {
     margin-bottom: 0px;
     display: grid;
@@ -35,4 +14,6 @@
     gap: 10px 35px;
     margin: 0 auto;
   }
-}
+
+} ;
+
