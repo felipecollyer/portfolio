@@ -27,8 +27,7 @@ body {
   --bg-foto: rgba(29, 29, 29, 1);
   --linha-sessoes: rgba(76, 76, 76, 0.158);
   --place-holder: rgba(255, 255, 255, 0.842);
-  /* --borda-baixo: rgb(255, 251, 0); */
-  --borda-baixo: #ee7410;
+  --borda-baixo:rgb(87, 186, 134);
   --text-1: rgba(255, 255, 255, 0.699);
 }
 .container,
@@ -43,7 +42,7 @@ body {
 
 /* HEADER */
 header .logo {
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-style: italic;
   font-weight: bold;
 }
@@ -80,7 +79,7 @@ main .container {
 
 .wellComeProfile span {
   font-style: italic;
-  border-bottom: 1px solid var(--borda-baixo);
+  border-bottom: 2px solid var(--borda-baixo);
 }
 
 .wellComeProfile p {
@@ -108,7 +107,6 @@ main .container {
 form a {
   text-transform: uppercase;
   padding: 5px 10px;
-  border-radius: 10px 0px 10px 0px;
   border-bottom: 1px solid var(--borda-baixo);
 }
 
